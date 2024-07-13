@@ -1,1 +1,467 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <?!= include('css') ?> 
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Stmo_Production</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Leader</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Collaborative Partner</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Riyan S Sutomo</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Saya pengembang aplikasi pendidikan yang berdedikasi, spesialis dalam merancang solusi digital yang memikat secara visual dan mengoptimalkan efisiensi kerja guru untuk pengelolaan kelas. Dengan keahlian ini, saya menciptakan platform yang tidak hanya intuitif dan mudah digunakan, tetapi juga mendukung para guru dalam menyajikan materi pelajaran dengan lebih efektif. Komitmen saya adalah untuk terus mengembangkan teknologi yang inovatif dan memudahkan pengguna, dengan tujuan utama meningkatkan kualitas pembelajaran.
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Terima Kasih Banyak atas dukungan dan Supportnya</button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-twitter"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhESimyjTdNE9MKVkePaODw6o5MnbAblaQ9XjVLLztPrminVqZwdOxK9HDz45-whpdl0vWj3GE2PUMhEthfV3fGovBvk6j0dfHzgbaQLcF-2BeC1f1z_1yQ69tSxa1iSqifn1r-ve-a68nIJ0fI4x4HiMHfxXTjgSTnUFc48v7mnUjUBvg76Q4w6wNoN7N4/s16000/profile.png" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h2>My introduction</h2>
+                            <p>Platform Manajemen Tugas Guru merupakan sebuah sistem informasi canggih yang dirancang secara khusus untuk memfasilitasi pengelolaan dan koordinasi kegiatan sehari-hari guru. Sistem ini bertujuan untuk mengoptimalkan efisiensi dan meningkatkan standar kualitas pengajaran dalam dunia pendidikan. Melalui penggunaan teknologi yang adaptif dan intuitif, sistem ini membuka jalan bagi guru untuk mengatur tugas dengan lebih efektif, memberikan akses mudah ke sumber daya pendidikan. Sistem ini menjadi alat vital dalam membentuk lingkungan belajar yang produktif dan inspiratif.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content">
+                                <ul class="team">
+                                  <li class="member co-funder">
+                                    <div class="thumb"><img src="https://lh5.googleusercontent.com/d/1dk1e_nn9w3Dm6qZHGjT3Y9kYzEy9p6fy"></div>
+                                    <div class="description">
+                                      <h3>Ganti</h3>
+                                      <p>Kata<br><a href="#">@riyansoetomo</a></p>
+                                    </div>
+                                  </li>
+                                  <li class="member co-funder">
+                                    <div class="thumb"><img src="https://lh5.googleusercontent.com/d/1dk1e_nn9w3Dm6qZHGjT3Y9kYzEy9p6fy"></div>
+                                    <div class="description">
+                                      <h3>Ganti</h3>
+                                      <p>kata<br><a href="#">@riyansoetomo</a></p>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                </div>
+            </section>
+            <!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h2>Completed</h2>
+                        <label>15+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h2>Clients</h2>
+                        <label>25+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h2>Experience</h2>
+                        <label>7+ Years in the field</label>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- CONTACT BOX ---------------- -->
+<section class="section" id="about">
+    <div class="top-header">
+        <h1>Series Webinnar</h1>
+        <span>Kegiatan Seminar</span>
+    </div>
+    <ul>
+        <li class="booking-card" style="background-image: url('https://lh5.googleusercontent.com/d/1rl14cfCBjnlDk_WNvt9xDD1jL5gV1uYR')">
+            <div class="book-container">
+                <div class="content">
+                    <a href="https://link-barumu.com" target="_blank">
+                        <button class="btn">Réserver</button>
+                    </a>
+                </div>
+            </div>
+            <div class="informations-container">
+                <h2 class="title">Stmo Production</h2>
+                <p class="sub-title">Class Editing</p>
+                <p class="price">
+                    <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                    </svg>  Rp. 0.00-
+                </p>
+                <div class="more-information">
+                    <div class="info-and-date-container">
+                        <div class="box info">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+                            </svg>
+                            <p>Stmo Production</p>
+                        </div>
+                        <div class="box date">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                            </svg>
+                            <p>Tahun 2024</p>
+                        </div>
+                    </div>
+                    <p class="disclaimer">Catatan Kecil</p>
+                </div>
+            </div>
+        </li>
+        <li class="booking-card" style="background-image: url('https://lh5.googleusercontent.com/d/1V1GaMzTIvHhB9fZ8NYh3R336wlnnJOuU')">
+            <div class="book-container">
+                <div class="content">
+                    <a href="https://link-barumu.com" target="_blank">
+                        <button class="btn">Réserver</button>
+                    </a>
+                </div>
+            </div>
+            <div class="informations-container">
+                <h2 class="title">Stmo Production</h2>
+                <p class="sub-title">Class Editing</p>
+                <p class="price">
+                    <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                    </svg>  Rp. 0.00-
+                </p>
+                <div class="more-information">
+                    <div class="info-and-date-container">
+                        <div class="box info">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+                            </svg>
+                            <p>Stmo Production</p>
+                        </div>
+                        <div class="box date">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                            </svg>
+                            <p>Tahun 2024</p>
+                        </div>
+                    </div>
+                    <p class="disclaimer">Catatan Kecil</p>
+                </div>
+            </div>
+        </li>
+        <li class="booking-card" style="background-image: url('https://lh5.googleusercontent.com/d/1X_ICG6k6lc_i7G3TIKaPCu-tVMinZLud')">
+            <div class="book-container">
+                <div class="content">
+                    <a href="https://link-barumu.com" target="_blank">
+                        <button class="btn">Réserver</button>
+                    </a>
+                </div>
+            </div>
+            <div class="informations-container">
+                <h2 class="title">Stmo Production</h2>
+                <p class="sub-title">Class Editing</p>
+                <p class="price">
+                    <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                    </svg> Rp. 0.00-
+                </p>
+                <div class="more-information">
+                    <div class="info-and-date-container">
+                        <div class="box info">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+                            </svg>
+                            <p>Stmo Production</p>
+                        </div>
+                        <div class="box date">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                            </svg>
+                            <p>Tahun 2024</p>
+                        </div>
+                    </div>
+                    <p class="disclaimer">Catatan Kecil</p>
+                </div>
+            </div>
+        </li>
+        <li class="booking-card" style="background-image: url('https://lh5.googleusercontent.com/d/1KluC3oUP8-w7-f6MlKf_SFEyonVBzkKV')">
+            <div class="book-container">
+                <div class="content">
+                    <a href="https://link-barumu.com" target="_blank">
+                        <button class="btn">Réserver</button>
+                    </a>
+                </div>
+            </div>
+            <div class="informations-container">
+                <h2 class="title">Stmo Production</h2>
+                <p class="sub-title">Class Editing</p>
+                <p class="price">
+                    <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" />
+                    </svg> Rp. 0.00-
+                </p>
+                <div class="more-information">
+                    <div class="info-and-date-container">
+                        <div class="box info">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+                            </svg>
+                            <p>Stmo Production</p>
+                        </div>
+                        <div class="box date">
+                            <svg class="icon" style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                            </svg>
+                            <p>Tahun 2024</p>
+                        </div>
+                    </div>
+                    <p class="disclaimer">Catatan Kecil</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+<!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h2>Completed</h2>
+                        <label>15+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h2>Clients</h2>
+                        <label>25+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h2>Experience</h2>
+                        <label>7+ Years in the field</label>
+                    </div>
+                </div>
+            </section>
+<section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Collaborative Partner</h1>
+                    <span>Meningkatkan kualitas pendidikan di sekolah-sekolah melalui teknologi dan pendekatan pembelajaran yang interaktif dan inovatif.</span>
+                </div>
+                  <head>
+                    <!DOCTYPE html>
+                      <meta charset="utf-8">
+                      <title>Continuous Image Slider</title>
+                      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+                      </head> 
+                      <style>
+                      body {
+                        align-items: center;
+                        background: #E3E3E3;
+                        display: flex;
+                        height: 100vh;
+                        justify-content: center;
+                      }
+
+                      .slider {
+                        background: white;
+                        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+                        height: 100px;
+                        margin: auto;
+                        overflow: hidden;
+                        position: relative;
+                        width: 1100px;
+                      }
+
+                      .slider::before, .slider::after {
+                        content: "";
+                        position: absolute;
+                        width: 200px;
+                        height: 400px;
+                        z-index: 2;
+                        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+                      }
+
+                      .slider::after {
+                        right: 0;
+                        top: 0;
+                        transform: rotateZ(180deg);
+                      }
+
+                      .slider::before {
+                        left: 0;
+                        top: 0;
+                      }
+
+                      @keyframes scroll {
+                        0% { transform: translateX(0); }
+                        100% { transform: translateX(calc(-250px * 7)); }
+                      }
+
+                      .slide-track {
+                        animation: scroll 40s linear infinite;
+                        display: flex;
+                        width: calc(250px * 14);
+                      }
+
+                      .slide {
+                        height: 100%;
+                        width: 100%;
+                      }
+                      </style>
+                  <body>
+                  <div class="slider">
+                      <div class="slide-track">
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1MALx4NWqT_8osRYlnEpDf3mjDXvh0gIu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1bPjj8OVMKpplXtLeXAam19fZz8SFkIRu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1QVeGpQN1WLpwLRNWWtDBSJqVgEjGMTNn" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1MALx4NWqT_8osRYlnEpDf3mjDXvh0gIu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1bPjj8OVMKpplXtLeXAam19fZz8SFkIRu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1QVeGpQN1WLpwLRNWWtDBSJqVgEjGMTNn" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1MALx4NWqT_8osRYlnEpDf3mjDXvh0gIu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide"> <!-- Repeating images for continuous effect -->
+                              <img src="https://lh5.googleusercontent.com/d/1MALx4NWqT_8osRYlnEpDf3mjDXvh0gIu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1bPjj8OVMKpplXtLeXAam19fZz8SFkIRu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1QVeGpQN1WLpwLRNWWtDBSJqVgEjGMTNn" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1MALx4NWqT_8osRYlnEpDf3mjDXvh0gIu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1bPjj8OVMKpplXtLeXAam19fZz8SFkIRu" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1QVeGpQN1WLpwLRNWWtDBSJqVgEjGMTNn" height="100" width="250" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://lh5.googleusercontent.com/d/1MALx4NWqT_8osRYlnEpDf3mjDXvh0gIu" height="100" width="250" alt="" />
+                          </div>
+                      </div>
+                  </body>    
+                  </div>
+    </section>
+        </main>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Leader</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-twitter"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright © <a href="#home" style="text-decoration: none;">Riyan S Sutomo</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <?!= include('js')   ?> 
+</body>
+
+</html>
